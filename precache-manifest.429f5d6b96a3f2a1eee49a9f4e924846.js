@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "641ed187562d7696030b",
+    "revision": "1f35daf1f97305450a29",
     "url": "/react-quote/static/css/main.ec0769b5.chunk.css"
   },
   {
-    "revision": "641ed187562d7696030b",
-    "url": "/react-quote/static/js/main.430ff9b1.chunk.js"
+    "revision": "1f35daf1f97305450a29",
+    "url": "/react-quote/static/js/main.35dd9e00.chunk.js"
   },
   {
     "revision": "6a2bd7daf470b56590d9",
@@ -28,19 +28,19 @@ self.__precacheManifest = [
     "url": "/react-quote/static/media/fontawesome-webfont.fee66e71.woff"
   },
   {
-    "revision": "674f50d287a8c48dc19ba404d20fe713",
-    "url": "/react-quote/static/media/fontawesome-webfont.674f50d2.eot"
-  },
-  {
     "revision": "b06871f281fee6b241d60582ae9369b9",
     "url": "/react-quote/static/media/fontawesome-webfont.b06871f2.ttf"
+  },
+  {
+    "revision": "674f50d287a8c48dc19ba404d20fe713",
+    "url": "/react-quote/static/media/fontawesome-webfont.674f50d2.eot"
   },
   {
     "revision": "912ec66d7572ff821749319396470bde",
     "url": "/react-quote/static/media/fontawesome-webfont.912ec66d.svg"
   },
   {
-    "revision": "b9c243178e5d3fe3b441c422f7254022",
+    "revision": "579aad63e072f887e6c87c9220c4f71f",
     "url": "/react-quote/index.html"
   }
 ];
