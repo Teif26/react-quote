@@ -20,7 +20,7 @@ class QuoteBox extends Component{
   
  }
     componentDidMount(){
-     axios.get('http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]3')
+     axios.get('https://cors-anywhere.herokuapp.com/http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]3')
      .then(res=>{ this.setState({quotes: res.data[0]})
      document.body.style.backgroundColor = '#333'
      })
@@ -31,7 +31,7 @@ class QuoteBox extends Component{
       const {colors} = this.state
       const color = colors[Math.floor(Math.random()* colors.length)]
       var newQuote = Math.floor(Math.random() * 50)
-      const API_URL = `http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]${newQuote}`
+      const API_URL = `https://cors-anywhere.herokuapp.com/http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]${newQuote}`
       ev.preventDefault()
       document.body.style.backgroundColor = color
       axios.get(API_URL)
